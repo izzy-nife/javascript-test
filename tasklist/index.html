@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TASK LIST</title>
+    <link href='https://cdn.boxicons.com/fonts/basic/boxicons.min.css' rel='stylesheet'>
+    <link href='https://cdn.boxicons.com/fonts/brands/boxicons-brands.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css  ">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  </head> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script> 
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- whole div -->
+    <div class="card d-flex align-items-center justify-content-center"> <!-- whole div -->
+      <div class="card-header">  <!-- input field -->
+        <h2> Task list</h2>
+         <form>
+          <div class="p-2 mb-2 collection">
+           <input type="text" placeholder="Add new task" >
+          </div>
+           <div>
+             <!-- <input type="submit" value="ADD TASK" class="btn btn-success submit"> -->
+             <button type="submit" class=" btn btn-success" id="submit"> ADD TASK </button>
+          </div>
+      </form>
+ 
+      </div>  <!-- input field end -->
+      <div class="card-body">
+        <h2 class="text-dark mb-2"> Tasks</h2>
+        <span class="mb-2 p-2"> <input type="text" placeholder="Filter tasks"></span>
+        <div> <input type="submit" value="CLEAR TASKS" class="clear"></div>
+        <div>
+            <ul class="tasks"></ul>
+        </div>
+      </div>
+
+    </div><!-- whole div end -->
+    <script src="app.js"></script>
+</body>
+</html>

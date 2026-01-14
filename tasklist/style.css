@@ -1,0 +1,27 @@
+ *, *::after , *::before
+ {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+ }
+ .delete{
+   color:black;
+   background-color:lightslategray;
+   
+ }
+ .delete:hover{
+   background-color: red;
+   cursor: pointer;
+
+ }
+ .task {
+   justify-content: space-between;
+   display: flex;
+   align-items:center;
+   border-bottom: 2px solid black;
+
+ }
+ .tasks {
+  list-style-type: none;
+  cursor: pointer;
+ }
